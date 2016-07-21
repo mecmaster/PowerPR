@@ -46,8 +46,8 @@ jQuery(function ($) {
 
     map = new GMaps({
         el: '#map-wrapper',
-        lat: 23.475719, //Replace Here Location Google Map Lat
-        lng: 91.137101, //Replace Here Location Google Map Lng
+        lat: 50.463185, //Replace Here Location Google Map Lat
+        lng: 30.476959, //Replace Here Location Google Map Lng
         scrollwheel:false,
         zoom: 16,
         zoomControl : true,
@@ -60,8 +60,8 @@ jQuery(function ($) {
 
     var image = '';
     map.addMarker({
-        lat: 23.475719, //Replace Here Location Google Map Lat
-        lng: 91.137101, //Replace Here Location Google Map Lat
+        lat: 50.463185, //Replace Here Location Google Map Lat
+        lng: 30.476959, //Replace Here Location Google Map Lat
         icon: image,
         animation: google.maps.Animation.DROP,
         verticalAlign: 'bottom',
