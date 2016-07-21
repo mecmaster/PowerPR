@@ -24,6 +24,9 @@
     <!-- Font Aewsome Style -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
+	<!-- Fullscreen Background Slider -->
+    <link href="css/jquery.maximage.min.css" rel="stylesheet">
+    
     <!-- Bootstrap Style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -74,13 +77,15 @@
 <div id="container">
 	<!-- +++ Intro Section ++++ -->
     <section class="intro">
-    	<!-- Intro Section Background-image -->
-    	<div class="intro-image"></div>
+    	<div class="bg-overlay"></div>
+    	<!-- Fullscreen Background Slider Images -->
+		<div id="maximage">
+		    <img src="img/slide-one.jpg" alt="">
+		    <img src="img/slide-two.jpg" alt="">
+		</div>
 		
 		<!-- ====+++ Intro Section Content +++==== -->
-		<div class="center-content">
-			
-
+		<div class="center-content">			
 			<div class="intro-content text-center">	
 				<!-- Logo -->								
 				<div class="logo">
@@ -89,7 +94,7 @@
 				<!-- ==== Main Heading ==== -->												
 				<h1 class="intro-title">We are Comming Soon<span class="obak">!</span></h1>
 
-				<!-- Spin Clock -->
+				<!--Spin Clock -->
 				<i class="fa fa-clock-o fa-spin fa-4x fa-clock-spin"></i>
 						
 				<!-- ====+++ Countdown Timer +++==== -->						
@@ -115,11 +120,12 @@
 			        </li>
 			    </ul>							
 				
-				<!-- ==== Intro Section Sub-Heading ==== -->				
+				<!-- ==== Intro Section Sub-Heading ==== -->
+				
 				<div class="intro-subtitle">
 					<p>We are currently Creating Something Awesome.</p>
 				</div>							
-											
+						
 			</div> <!-- /End Intro Section Content -->
 		</div>
 		<!-- ==== Intro Section Bottom Content ==== -->
@@ -221,13 +227,13 @@
 							</div>
 							<div class="col-sm-4 service-info">							
 								<i class="fa fa-rocket fa-service"></i> <!--Service Icon -->
-								<h2>Cross Browser Support</h2> <!--Service Name -->
+								<h2>Cross Browser Support</h2> <!-- Service Name -->
 								<!--Service Details -->
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat congue leo, nec vehicula elit vehicula vel.</p>
 							</div>
 							<div class="col-sm-4 service-info">							
 								<i class="fa fa-support fa-service"></i> <!--Service Icon -->
-								<h2>Great Support</h2> <!--Service Name -->
+								<h2>Great Support</h2> <!-- Service Name -->
 								<!--Service Details -->
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat congue leo, nec vehicula elit vehicula vel.</p>
 							</div>
@@ -254,13 +260,14 @@
 							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
-						</div>		
+						</div>																						
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<div class="team-member">
 							<!--Team Member Image -->
 							<img class="member-img img-responsive" src="img/2.jpg" alt="Member"/>
-							<h2>N.A. Shoaib, Co-Founder</h2> <!--Team Member Name and Position -->
+							<h2>N.A Shoaib, Co-Founder</h2> <!--Team Member Name and Position -->
+							<!--Team Member Social Profile Link -->
 							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
@@ -364,9 +371,9 @@
 	            <li><a href="#" class="turquoise"></a></li>
 	            <li><a href="#" class="brick"></a></li>
 	            <li><a href="#" class="dark"></a></li>
-	        </ul>  
+	        </ul>
 	    </div>
-	</div> 
+	</div>
 </div> <!-- /End Style Switcher -->
 
 <!-- jQuery Library -->
@@ -376,6 +383,9 @@
 <script src="js/modernizr.custom.js"></script>
 <!-- Bootstrap JS -->
 <script src="js/bootstrap.min.js"></script>
+<!-- Background Slideshow -->
+<script src="js/jquery.cycle.all.min.js"></script>
+<script src="js/jquery.maximage.min.js"></script>
 <!-- Classie JS -->
 <script src="js/classie.js"></script>       
 <!-- Countdown JS -->
