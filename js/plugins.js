@@ -26,13 +26,6 @@
 // Countdown Time Setup
 // -------------------------------------------------------------
 
-$('.countdown').downCount({
-    date: '08/10/2016 12:00:00',
-    offset: +10
-}, function () {
-    alert('WOOT WOOT, done!');
-});
-     
 /**
  * MAILCHIMP
  */

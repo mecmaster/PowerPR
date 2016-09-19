@@ -30,6 +30,7 @@
 
 	// For Demo purposes only (prevent jump on click)
 	[].slice.call( document.querySelectorAll('.content-wrapper a') ).forEach( function(el) { el.onclick = function() { return false; } } );
+  trigger.click();
 })();
 
 // screen loader
